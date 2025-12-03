@@ -1,15 +1,11 @@
 # TSN
 
-# Unsupervised Cross-modal Person Search via Text Style Normalization
+
 
 ![main](doc/model.png)
 
 
 
-## Abstract 
-
-In person retrieval tasks, text-based search faces challenges due to modality differences. Especially in fully unsupervised scenarios that lack both category labels and text descriptions, achieving effective cross-modal mapping becomes more challenging. To address these challenges, we propose an Unsupervised Cross-modal Person Search via Text Style Normalization (TSN), which integrates the Multi-Similarity Measurement strategy (MSM) and Multimodal Fusion Clustering module (MFC) into one framework. The MSM first leverages a multimodal large language model and elaborated fixed-style prompts to generate corresponding style-normalized text descriptions for person images. Then, the MSM introduces a multi-similarity fusion mechanism, which reduces semantic differences by generating samples with consistent styles, thereby improving the original similarity measurement results. Moreover, the MFC employs a multimodal cross-attention mechanism to fuse different semantic features. With this mechanism, the model can dynamically learn the correspondence between images and text, effectively improving clustering results and enhancing pseudo-label confidence. Experimental results on three public datasets demonstrate that the proposed method achieves superior results.
-### Getting started
 
 Install dependencies
 
